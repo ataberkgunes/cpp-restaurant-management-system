@@ -20,27 +20,23 @@ Managers can:
 
 ## Demonstrated OOP Concepts
 
-### Classes
-Well-defined classes such as Restaurant, User, Customer, Employee, Manager, MenuItem, Order are present.
+- **Classes:** Well-defined classes such as `Restaurant`, `User`, `Customer`, `Employee`, `Manager`, `MenuItem`, `Order` are present.
 
-### Inheritance
-Customer and Employee classes are derived from the User class.  
-Manager and DeliveryPerson classes are derived from the Employee class.  
-FoodItem and DrinkItem classes are derived from the MenuItem abstract class.
+- **Inheritance:**
+  - `Customer` and `Employee` classes are derived from the `User` class.
+  - `Manager` and `DeliveryPerson` classes are derived from the `Employee` class.
+  - `FoodItem` and `DrinkItem` classes are derived from the `MenuItem` abstract class.
 
-### Polymorphism
-Thanks to virtual functions like displayInfo() and work(), the correct method of the derived class is called via the base class pointer.  
-The MenuItem pointer array can hold both FoodItem and DrinkItem objects.
+- **Polymorphism:**
+  - Thanks to virtual functions like `displayInfo()` and `work()`, the correct method of the derived class is called via the base class pointer.
+  - The `MenuItem` pointer array can hold both `FoodItem` and `DrinkItem` objects.
 
-### Abstract Classes
-Abstract classes like MenuItem and Employee are used to ensure that certain functions (showItem(), work() etc.) are compulsorily implemented by derived classes.
+- **Abstract Classes:** Abstract classes like `MenuItem` and `Employee` are used to ensure that certain functions (`showItem()`, `work()` etc.) are compulsorily implemented by derived classes.
 
-### Encapsulation
-Class data members are defined as private or protected, and controlled access to these members is provided only through the public interface (getter/setter methods).
+- **Encapsulation:** Class data members are defined as `private` or `protected`, and controlled access to these members is provided only through the `public` interface (getter/setter methods).
 
-## Note
+> **Note:** In line with the requirements of this project, STL (Standard Template Library) collections such as `std::vector` and `std::list` were not used to understand the basics of memory management. Instead, dynamic arrays and manual memory management (`new[]`, `delete[]`) were preferred.
 
-In line with the requirements of this project, STL (Standard Template Library) collections such as std::vector and std::list were not used to understand the basics of memory management. Instead, dynamic arrays and manual memory management (new[], delete[]) were preferred.
 
 ## How to Compile and Run
 
