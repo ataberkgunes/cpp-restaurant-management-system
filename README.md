@@ -46,14 +46,21 @@ In line with the requirements of this project, STL (Standard Template Library) c
 
 You need a C++ compiler (e.g., g++) to compile and run the project.
 
-Open your terminal/command prompt and navigate to the project folder (e.g., after cloning from GitHub):
+1. **Open your terminal/command prompt and navigate to the project folder** (e.g., after cloning from GitHub):
 
+```bash
 cd path/to/your/project-folder
+```
 
-Compile all .cpp files using the following command:
+2. **Compile all `.cpp` files using the following command:**
 
-g++ -o restaurant_app main.cpp user.cpp customer.cpp employee.cpp manager.cpp delıveryperson.cpp restaurant.cpp order.cpp menuıtem.cpp foodıtem.cpp drınkıtem.cpp
+```bash
+g++ -o restaurant_app main.cpp user.cpp customer.cpp employee.cpp manager.cpp deliveryperson.cpp restaurant.cpp order.cpp menuitem.cpp fooditem.cpp drinkitem.cpp
+```
 
-After compilation is complete, run the application:
+3. **After compilation is complete, run the application:**
 
+```bash
 ./restaurant_app.exe
+```
+
