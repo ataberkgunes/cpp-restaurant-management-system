@@ -1,5 +1,8 @@
 # Restaurant Order and Management System (C++)
 
+**Co-developed with:**  
+- Muhammet Doğukan Bingöl
+
 This project is a console-based Restaurant Order and Management System developed using the C++ language. The project was prepared as a term project to practically demonstrate the principles of Object-Oriented Programming (OOP).
 
 ## Project Goal
